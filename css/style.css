@@ -1,0 +1,241 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Merriweather";
+  src: url("../Merriweather-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url("../Merriweather-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url("../Merriweather-BoldItalic.woff2") format("woff2");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url("../Merriweather-BlackItalic.woff2") format("woff2");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url("../Merriweather-LightItalic.woff2") format("woff2");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url("../Merriweather-Italic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url("../Merriweather-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../Roboto-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../Roboto-Italic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../Roboto-BoldItalic.woff2") format("woff2");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../Roboto-BlackItalic.woff2") format("woff2");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url("../Merriweather-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../Roboto-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../Roboto-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../Roboto-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../Roboto-LightItalic.woff2") format("woff2");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../Roboto-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../Roboto-MediumItalic.woff2") format("woff2");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../Roboto-Thin.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../Roboto-ThinItalic.woff2") format("woff2");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+.conteiner {
+  width: 100%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.header {
+  width: 100%;
+  height: 60px;
+  background-color: blu;
+}
+
+.header_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper_left {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.logo {
+  width: 15%;
+}
+
+.header_item {
+  display: flex;
+  gap: 25px;
+}
+
+.header_items {
+  font-weight: 300;
+  font-family: "Roboto";
+  color: grey;
+}
+
+.header_items:nth-child(1) {
+  font-weight: 450;
+  font-family: "Roboto";
+  color: black;
+}
+
+.wrapper_right {
+  display: flex;
+}
+
+.bi {
+  padding: 15px;
+  align-items: center;
+}
+
+.bi:active {
+  background-color: red;
+}
+
+.header_link:nth-child(1) {
+  color: black;
+}
+
+.header_link:nth-child:hover {
+  color: black;
+}
+
+.header_link {
+  color: grey;
+}
+
+.header_link:hover {
+  color: black;
+  font-weight: 500;
+  font-family: "Roboto";
+}
+
+.header_img {
+  transform: rotate(0deg); /* Стрелка по умолчанию смотрит вниз */
+  transition: transform 0.3s ease; /* Плавный переход */
+}
+
+details[open] .header_img {
+  transform: rotate(180deg); /* Стрелка поворачивается вверх */
+}
+
+summary {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
